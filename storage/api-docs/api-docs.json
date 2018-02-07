@@ -1,0 +1,22 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "Core API",
+        "version": "1.0.0"
+    },
+	"host": "localhost:81",
+    "basePath": "/swaggers-test/public/api",
+    "paths": {
+        "/sample": {
+            "get": {
+                "summary": "Sample",
+                "responses": {
+                    "200": {
+                        "description": "successful operation"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {}
+}
